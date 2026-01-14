@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contrato d Arrendamiento de Vivienda Habitual - Formulario</title>
+</head>
+<body>
+    <section class="contenedor">
+        <section class="tituloPrincipal">
+            <h1>Contrato de arrendamienyo de vivienda habitual</h1>
+        </section>
+        <section class="col-izquierda">
+            <form class="formulario" id="formContrato">
+                <div class="ciudad">
+                    <label for="ciudadInput">Ciudad en donde vive</label>
+                    <input type="text" id="ciudadInput" placeholder="Ej: Lima">
+                </div>
+
+                <div class="fecha">
+                    <label for="fechaInput">Fecha de hoy</label>
+                    <input type="date" id="fechaInput">
+                </div>
+
+                <div class="nombreArrendador">
+                    <label for="nombreinputArrendador">Nombre del Arrendador</label>
+                    <input type="text" id="nombreinputArrendador" placeholder="Escriba el nombre">
+                </div>
+
+                <div class="dniArrendador">
+                    <label for="dniinputArrendador">DNI del Arrendador</label>
+                    <input type="text" id="dniinputArrendador" placeholder="Escriba el DNI">
+                </div>
+
+                <div class="direccion">
+                    <label for="direccionInput">Direccion de la Vivienda</label>
+                    <input type="text" id="direccionInput" placeholder="Escriba la direccion">
+                </div>
+
+                <div class="nombreArrendatario">
+                    <label for="nombreinputArrendatario">Nombre del Arrendatario</label>
+                    <input type="text" id="nombreinputArrendatario" placeholder="Escriba el nombre">
+                </div>
+
+                <div class="dniArrendatario">
+                    <label for="dniinputArrendatario">DNI del Arrendatario</label>
+                    <input type="text" id="dniinputArrendatario" placeholder="Escriba el DNI">  
+                </div>
+            </form>
+        </section>
+
+        <section class="col-derecha">
+            <div class="titulo">
+                <h3>Contrato de Arrendamiento de vivienda</h3>
+            </div>
+
+            <div class="contenido">
+                <p class="textoInicial">En <strong><span class="ciudadSpan">[Ciudad]</span></strong>, a <strong><span class="fechaSpan">[Fecha]</span></strong></p>
+
+                <p><strong>REUNIDOS:</strong></p>
+
+                <p>De una parte, <strong><span class="nombrespanArrendador">[Nombre Arrendador]</span></strong>
+                , con DNI/NIF <strong><span class="dnispanArrendador">[DNI Arrendador]</span></strong> y 
+                domicilio en <strong><span class="direccionSpan">[Direccion de la vivienda]</span></strong>
+                , en adelante el "Arrendador".</p>
+
+                <p>Y de otra parte, <strong><span class="nombrespanArrendatario">[Nombre Arrendatario]</span></strong>
+                , con DNI/NIF <strong><span class="dnispanArrendatario">[DNI Arrendatario]</span></strong>
+                en adelante el "Arrendatario".</p>
+
+                <p>Ambas partes, con capacidad legal para contratar y obligarse, convienen el presente
+                contrato de arrendamiento de vivienda habitual, que se regirá por las siguientes 
+                cláusulas:</p>
+
+                <p><strong><span>CLAUSULAS:</span></strong></p>
+
+                <p>1. Objetivo del contrato: El Arrendador da en arrendamiento al Arrendatario la vivienda
+                ubicada en <strong><span class="direccionSpan">[Dirección de la vivienda]</span></strong>, 
+                compuesta por 2 habitaciones, baños, cocina, etc, destinada exclusivamente a vivienda 
+                habitual del Arrendatario.</p>
+
+                <p>2. Gastos y suministros: Serán a cargo del Arrendatario los gastos de agua, luz, gas, 
+                comunidad, otros], mientras que los gastos de Impuestos, reparaciones estructurales, etc. 
+                Serán a cargo del Arrendador.</p>
+
+                <p>3. Conservación de la vivienda: El Arrendatario se compromete a mantener la vivienda en 
+                buen estado y a notificar al Arrendador cualquier daño o reparación necesaria.</p>
+
+                <p>4. Prohibiciones: Queda prohibido al Arrendatario realizar modificaciones estructurales 
+                en la vivienda sin el consentimiento escrito del Arrendador y subarrendarla a terceros, 
+                salvo autorización expresa.</p>
+
+                <p>Y en prueba de conformidad, ambas partes firman el presente contrato, en 
+                <strong><span class="ciudadSpan">[Ciudad]</span></strong> a <strong><span class="fechaSpan">[Fecha]</span></strong>.</p>
+
+                <p class="textoFinal">EL ARRENDADOR: ___________________________ <br> 
+                Nombre: <strong><span class="nombrespanArrendador">[Nombre del Arrendador]</span></strong> <br> 
+                DNI/NIF: <strong><span class="dnispanArrendador">[DNI del Arrendador]</span></strong></p>
+
+                <p class="textoFinal">EL ARRENDATARIO: _________________________ <br>
+                Nombre: <strong><span class="nombrespanArrendatario">[Nombre del Arrendatario]</span></strong><br>
+                DNI/NIF: <strong><span class="dnispanArrendatario">[DNI del Arrendatario]</span></strong></p>
+            </div>
+        </section>
+    </section>
+
+    <script src="sccript.js"></script>
+</body>
+</html>
