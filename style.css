@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: rgb(252, 248, 248);
+}
+
+.contenedor {
+    display: flex; 
+    align-items: flex-start;
+    margin: 5rem;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.textoInicial {
+    text-align: right;
+}
+
+.col-derecha {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    flex: 1 1 600px;
+}
+
+.col-izquierda {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    flex: 1 1 400px;
+}
+
+.col-izquierda form div {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+input {
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textoFinal {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@media (max-width: 768px) {
+    .col-izquierda, .col-derecha {
+        flex: 1 1 100%; /* Se apilan una sobre la otra */
+    }
+}
